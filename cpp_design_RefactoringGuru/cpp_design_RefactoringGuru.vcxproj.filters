@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{5a65d69d-fff2-4d3c-89b9-43d4ee86f069}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\01_Strategy">
+      <UniqueIdentifier>{4ee11842-7bce-4303-a4c5-890d9e789d43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\02_TemplateMethod">
+      <UniqueIdentifier>{56c0688c-670b-4d98-bf76-f59e87a9e4d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\03_Observer">
+      <UniqueIdentifier>{faa4ccfb-24ed-420b-9cc2-a4b1b54c3903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\04_FactoryMethod">
+      <UniqueIdentifier>{0a21842b-cb95-4aad-84f5-7ecb39a67dae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\05_AbstractFactory">
+      <UniqueIdentifier>{1f8eaec6-a6b5-4f30-a913-99319c993f01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\06_Builder">
+      <UniqueIdentifier>{23bbe1eb-c661-467e-a2e0-e8ed510fa04b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\07_Prototype">
+      <UniqueIdentifier>{4eb6644e-b956-4402-aafb-0fba1e96e8b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\08_Singleton">
+      <UniqueIdentifier>{07e00ac1-cb4a-4072-9e1a-02cd9fb05f00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\09_Adapter">
+      <UniqueIdentifier>{e13a308a-a610-4361-ad1b-0db2aad6a2e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\10_Decorator">
+      <UniqueIdentifier>{8b373a95-f481-46a1-9b83-0b6a821b628a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\11_Proxy">
+      <UniqueIdentifier>{e4bd19b2-3f31-4db9-a0ad-40d9f37fc7d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\12_Facade">
+      <UniqueIdentifier>{89f85e46-e6ff-4fa7-908e-bd25069660ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\13_Composite">
+      <UniqueIdentifier>{600f5bad-ec4d-408b-b1e9-0b05f9d95e17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\14_Iterator">
+      <UniqueIdentifier>{cb04a8cf-2ea3-4a42-92bf-f609ef796fed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\15_Command">
+      <UniqueIdentifier>{8748ed47-4aed-4789-bfa4-40b005ed382d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\16_State">
+      <UniqueIdentifier>{4fd6e3cc-7264-4557-8c67-cf338361fef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\17_ChainOfResponsibility">
+      <UniqueIdentifier>{ac37a120-13be-49c4-8be3-aee4398140c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\18_Mediator">
+      <UniqueIdentifier>{3e8f011d-eb25-43f9-9063-6c2a206e9002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\19_Memento">
+      <UniqueIdentifier>{b627db9c-7bdb-4f35-a21b-c87941cdf0af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\20_Bridge">
+      <UniqueIdentifier>{d0ec276e-50cc-4aa3-8675-9a1825c539cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\21_Flyweight">
+      <UniqueIdentifier>{aba40cf1-02b3-4f3c-b69a-6fdc11b2e44e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\22_Visitor">
+      <UniqueIdentifier>{49556335-3a25-403b-90cc-de96a80df00c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="01_Strategy\main.cpp">
+      <Filter>src\01_Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="02_TemplateMethod\main.cpp">
+      <Filter>src\02_TemplateMethod</Filter>
+    </ClCompile>
+    <ClCompile Include="03_Observer\main.cpp">
+      <Filter>src\03_Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="04_FactoryMethod\main.cpp">
+      <Filter>src\04_FactoryMethod</Filter>
+    </ClCompile>
+    <ClCompile Include="05_AbstractFactory\main.cpp">
+      <Filter>src\05_AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="06_Builder\main.cpp">
+      <Filter>src\06_Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="07_Prototype\main.cpp">
+      <Filter>src\07_Prototype</Filter>
+    </ClCompile>
+    <ClCompile Include="08_Singleton\main.cpp">
+      <Filter>src\08_Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="09_Adapter\main.cpp">
+      <Filter>src\09_Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="10_Decorator\main.cpp">
+      <Filter>src\10_Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="11_Proxy\main.cpp">
+      <Filter>src\11_Proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="12_Facade\main.cpp">
+      <Filter>src\12_Facade</Filter>
+    </ClCompile>
+    <ClCompile Include="13_Composite\main.cpp">
+      <Filter>src\13_Composite</Filter>
+    </ClCompile>
+    <ClCompile Include="14_Iterator\main.cpp">
+      <Filter>src\14_Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="15_Command\main.cpp">
+      <Filter>src\15_Command</Filter>
+    </ClCompile>
+    <ClCompile Include="16_State\main.cpp">
+      <Filter>src\16_State</Filter>
+    </ClCompile>
+    <ClCompile Include="17_ChainOfResponsibility\main.cpp">
+      <Filter>src\17_ChainOfResponsibility</Filter>
+    </ClCompile>
+    <ClCompile Include="18_Mediator\main.cpp">
+      <Filter>src\18_Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="19_Memento\main.cpp">
+      <Filter>src\19_Memento</Filter>
+    </ClCompile>
+    <ClCompile Include="20_Bridge\main.cpp">
+      <Filter>src\20_Bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="21_Flyweight\main.cpp">
+      <Filter>src\21_Flyweight</Filter>
+    </ClCompile>
+    <ClCompile Include="22_Visitor\main.cpp">
+      <Filter>src\22_Visitor</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
